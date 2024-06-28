@@ -5,6 +5,7 @@
 > A doua notă: Încă se mai lucrează la bibliotecă, deci să te aștepți că nu poți face câteva lucruri.
 
 **Fereastra**
+
 Folosind funcția `window_res()`, poți schimba rezoluția ferestrei.
 
 Dacă vrei să schimbi câte cps (cadre pe secundă) are un joc, poți face asta cu funcția `game_fps()`.
