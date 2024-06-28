@@ -5,6 +5,7 @@
 > Second disclaimer: The library is still a WiP library, so expect things that are in pygame to not be in gamelib.
 
 **Window**
+
 Using the `window_res()` function, you can change the window's resolution.
 
 If you want to change the game's fps, you can with the `game_fps()` function.
