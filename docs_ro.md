@@ -26,7 +26,7 @@ Funcțiile `play_music()`, `stop_music()`, `pause_music()` și `unpause_music()`
 
 Deocamdată, poți desena doar patru forme geometrice folosind funcțiile `draw_rectangle()`, `draw_polygon()`, `draw_circle()` și `draw_sline()` (P.S. sline în `draw_sline()` înseamnă linie dreaptă)
 
-**Talking about time in game**
+**Timpul în joc**
 
 Deocamdată (din nou), există două funcții despre timp. Funcțiile `time_wait()` și `delay_time()`, mai târziu vor fi adăugate și alte funcții pe măsură ce proiectul crește.
 
