@@ -1,6 +1,7 @@
 # Gamelib documentation
 
 > Disclaimer: The structure of a program in gamelib is the same as pygame because the library is, well, based on pygame.
+
 > Second disclaimer: The library is still a WiP library, so expect things that are in pygame to not be in gamelib.
 
 **Window**
