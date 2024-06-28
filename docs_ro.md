@@ -1,6 +1,7 @@
 # Documentație gamelib
 
 > Notă: Structura unui program în gamelib este aceeași ca cea din pygame pentru că, gamelib e bazat pe pygame.
+
 > A doua notă: Încă se mai lucrează la bibliotecă, deci să te aștepți că nu poți face câteva lucruri.
 
 **Fereastra**
