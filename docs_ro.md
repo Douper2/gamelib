@@ -14,7 +14,7 @@ Cu `init()` inițializezi totul ce vei avea în program.
 
 Folosind funcția `close_window()` este un mod mai ușor de a spune programului "Hei, dacă utilizatorul a apăsat butonul X, închide programul", în loc să o faci cum ai face în pygame.
 
-Funcția `quit()` e doar funcția `init()` doar că nu mai inițializeaza totul.
+Funcția `quit()` e doar funcția `init()` doar că nu se mai inițializeaza totul.
 
 Funcțiile `set_window_size()`, `get_window_size()`,  `set_window_caption()`,  `get_window_caption()` și `set_window_fullscreen()` fac exact ceea ce crezi. Prima, setează dimensiunea ferestrei, a doua, obține dimensiunea, a treia, setează titlul ferestrei (i.e. textul de pe o fereastră), a patra, obține titlul (ex. dacă vrei să verifici dacă titlul ferestrei este "x", și dacă este, atunci fă ceva)
 
