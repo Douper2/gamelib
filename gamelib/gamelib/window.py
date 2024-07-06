@@ -1,5 +1,6 @@
 import pygame
 from pygame import clock, screen
+import sys
 
 def window_res(int):
     pygame.display.set_mode(int)
@@ -19,7 +20,7 @@ def close_window():
             if event.type == pygame.QUIT:
                 running = False
 
-def quit():
+def quit_init():
     pygame.quit()
 
 def get_window_size(str):
@@ -36,3 +37,7 @@ def set_window_caption(str):
 
 def set_window_fullscreen(bool):
     pygame.display.set_fullscreen(bool)
+ 
+def quit_prg():
+    raise SystemExit
+

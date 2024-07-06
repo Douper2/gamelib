@@ -1,11 +1,9 @@
 # Gamelib documentation
 
 > Disclaimer: The structure of a program in gamelib is the same as pygame because the library is, well, based on pygame.
-
 > Second disclaimer: The library is still a WiP library, so expect things that are in pygame to not be in gamelib.
 
 **Window**
-
 Using the `window_res()` function, you can change the window's resolution.
 
 If you want to change the game's fps, you can with the `game_fps()` function.
@@ -16,11 +14,13 @@ Using `close_window()` is just a shorter way to say to the program "Hey, if the 
 
 The `quit()` function is just the `init()` but it uninitializes everything.
 
+The `quit_prg()` function quits the entire program.
+
 The `set_window_size()`, `get_window_size()`,  `set_window_caption()`,  `get_window_caption()` and `set_window_fullscreen()` do exactly what you think. First one, sets the window size, the second, gets the size, the third, sets a window caption (i.e. the text on a window), the forth, gets the caption (e.g. if you wanna check if a caption is "x", if it is, then do something)
 
 **Music in game**
 
-The `play_music()`, `stop_music()`, `pause_music()` and `unpause_music()` functions are pretty straightforward when it comes to what they do.
+The `play.music()`, `stop.music()`, `pause.music()` and `unpause.music()` functions are pretty straightforward when it comes to what they do.
 
 **Sprites**
 

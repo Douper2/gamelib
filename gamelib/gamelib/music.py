@@ -1,14 +1,16 @@
 import pygame
 
-def play_music(filename, music_file):
-    pygame.mixer.load()
+def music(filename, music_file):
+    pygame.mixer.init()
+
+def play(filename, music_file):
     pygame.mixer.music.play()
 
-def stop_music():
+def stop():
     pygame.mixer.music.stop()
 
-def pause_music():
+def pause():
     pygame.mixer.music.pause()
 
-def unpause_music():
+def unpause():
     pygame.mixer.music.unpause()
